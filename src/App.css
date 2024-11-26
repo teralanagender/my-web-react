@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style the header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #38e815; /* Dark background */
+  color: #fff;
+}
+
+/* Style the logo container */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: 50px;  /* Adjust the size of the logo */
+  height: auto;
+  margin-right: 10px;
+
+}
+
+.company-name {
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+/* Style the navigation links */
+.nav-links ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  font-size: 18px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #f39c12; /* Change color on hover */
+}
+
+.contact-us-container {
+  position: relative;
+}
+
+.contact-us-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-us-btn:hover {
+  background-color: #45a049;
+}
+
+.dropdown-window {
+  position: absolute;
+  top: 50px; /* Adjust the distance from the button */
+  left: 0;
+  width: 300px;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.dropdown-window form div {
+  margin-bottom: 10px;
+}
+
+.dropdown-window label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.dropdown-window input,
+.dropdown-window textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.dropdown-window button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.dropdown-window button:hover {
+  background-color: #45a049;
+}
+/* Footer.css */
+.footer {
+  background-color:#38e815;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-text {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-icon {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.social-icon:hover {
+  color: #007bff;
+}
+/* Main Content Sections */
+main {
+  flex: 1;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about-img, .service-img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin: 20px 0;
+}
+
+.about-section, .services-section, .contact-section {
+  margin-bottom: 60px;
+}
+
+.service-card {
+  display: inline-block;
+  width: 30%;
+  border-radius: 10px 10px;
+  margin: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.service-card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.contact-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.contact-btn:hover {
+  background-color: #0056b3;
+}
+.dropdown-menu{
+  background-color: #78e815;
+}
+.ptag{
+  color: white;
+  padding: 5px 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+}
+.cap{
+font-size: 10px;
+}
